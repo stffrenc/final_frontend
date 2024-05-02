@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Petals - Home</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Fresh Petals</h1>
+        <nav>
+            <div id="basket">
+                <img src="basket_icon.png" alt="Basket" width="60" height="60">
+                <span id="basket-count">0</span>
+            </div>
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="track_order.html" id="home">Track Orders</a></li>
+            <li><a href="login.html" id="login">Login</a></li>
+            <li><a href="" id="help">Help</a></li>
+        </nav>
+    </header>
+    <main>
+        <section id="filters">
+            <label for="flower-type">Flower Type:</label>
+            <select id="flower-type">
+                <option>All</option>
+                <option>mixed</option>
+                <option>roses</option>
+                <option>lilies</option>
+                <option>tulips</option>
+                <option>daisies</option>
+            </select>
+
+            <label for="occasion">Occasion:</label>
+            <select id="occasion">
+                <option>All</option>
+                <option>mother's day</option>
+                <option>birthday</option>
+                <option>thank you</option>
+            </select>
+
+            <label for="color">Color:</label>
+            <select id="color">
+                <option>All</option>
+                <option>mixed</option>
+                <option>red</option>
+                <option>yellow</option>
+                <option>green</option>
+                <option>orange</option>
+            </select>
+
+            <label for="sort">Sort By:</label>
+            <select id="sort">
+                <option>Price: Low to High</option>
+                <option>Price: High to Low</option>
+            </select>
+        </section>
+        <section id="flowers-list">
+            <!-- Flowers will be dynamically populated here -->
+        </section>
+    </main>
+</body>
+</html>

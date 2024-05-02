@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Petals - Place Order</title>
+    <link rel="stylesheet" href="place_order.css">
+    <script src="place_order.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Fresh Petals</h1>
+        <nav>
+            <div id="basket">
+                <img src="basket_icon.png" alt="Basket" width="60" height="60">
+                <span id="basket-count">0</span>
+            </div>
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="track_order.html" id="home">Track Orders</a></li>
+            <li><a href="login.html" id="login">Login</a></li>
+            <li><a href="" id="help">Help</a></li>
+        </nav>
+    </header>
+    <main>
+        <h2>Place Order</h2>
+        <div id="order-summary">
+            <p><strong>Flower:</strong> <span id="flower-name"></span></p>
+            <p><strong>Delivery Date:</strong> <span id="delivery-date"></span></p>
+            <p><strong>Recipient Name:</strong> <span id="recipient-name"></span></p>
+            <p><strong>Address:</strong> <span id="shipping-address"></span></p>
+            <p><strong>City:</strong> <span id="shipping-city"></span></p>
+            <p><strong>Zip Code:</strong> <span id="shipping-zip"></span></p>
+            <p><strong>Purchase Option:</strong> <span id="purchase-option"></span></p>
+            <p><strong>Subtotal:</strong> $<span id="subtotal"></span></p>
+            <p><strong>Delivery Fee:</strong> $<span id="delivery-fee">25.00</span></p>
+            <p><strong>Total:</strong> $<span id="total"></span></p>
+        </div>
+        <button id="place-order-button">Place Order</button>
+    </main>
+</body>
+</html>
